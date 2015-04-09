@@ -1,0 +1,16 @@
+# Site settings
+title: Collaborative Filtering
+email: largemaths@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+I realize Collaborative filtering is one way to realize contextual computing. Contextual computing can be reached by including all the public ideas in suggesting the content to be pushed to user. Therefore here I will open a blog specifically record all the knowledge and implementation detail related to Collaborative filtering and maybe extends to recommendation system.
+ 
+ # Write an awesome description for your new site here. You can edit this
+ # line in _config.yml. It will appear in your document head meta (for
+ # Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: WenchenLi
+github_username:  WenchenLi
+
+# Build settings
+markdown: kramdown
