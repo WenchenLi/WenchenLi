@@ -9,7 +9,7 @@ name:Wenchen Li
 description: YA AI practitioner
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/5865755?v=3&s=460
+avatar: 
 
 #
 # Flags below are optional
@@ -19,11 +19,11 @@ avatar: https://avatars3.githubusercontent.com/u/5865755?v=3&s=460
 footer-links:
   dribbble:
   email:largemaths@gmail.com
-  facebook:https://www.facebook.com/Aaron.wenchen.li
-  flickr:https://avatars3.githubusercontent.com/u/5865755?v=3&s=460
-  github: https://github.com/WenchenLi
+  facebook:Aaron.wenchen.li
+  flickr:
+  github: WenchenLi
   instagram:
-  linkedin:https://www.linkedin.com/in/wenchenli
+  linkedin:in/wenchenli
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: 
