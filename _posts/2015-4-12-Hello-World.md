@@ -1,5 +1,6 @@
 ---
 layout: post
+category : start
 title: Hello World!
 ---
 
