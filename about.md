@@ -14,4 +14,4 @@ I believe Artificial Intelligence is a great field that can help me to achieve m
 
 ### Contact me
 
-[wenchen.li@cc.gatech.edu](wenchen.li@cc.gatech.edu)
+[wenchen.li@cc.gatech.edu](mailto:wenchen.li@cc.gatech.edu)
