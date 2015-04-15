@@ -15,4 +15,9 @@ This makes me think the value of the loss should not be the only indicator to st
 To be honest, I give up a few times when trained this model because after 200000 iterations, the CNN still only learns the Gaussian filter in the first layer. This fact tells me two things: one is the real science behind this CNN still need to be discovered rigorously, the other is training deep neural networks really need patient even if numerical loss stuck within a range. 
 <!--break-->
 
-I always want to relate training DNN with physics, I'll start another post on this when I'll free. But a little hint for me to remember for now is maybe we should see loss as a vector instead of scalar during training. 
+I always want to relate training DNN with physics, I'll start another post on this when I'm free. But a little hint for me to remember for now is maybe we should see loss as a vector instead of scalar during training. 
+
+<!--break-->
+(Update on 4.15.2015)
+<!--break-->
+I realized the reason that training take so much time is because of the stochastic gradient descent , since we have around 200000 images, and the batch size is only 32, it takes time to go through one epoch( go through all the images once), meanwhile for each epoch training has to improve this overfitting for small batches although loss can be kept within unit ball.
