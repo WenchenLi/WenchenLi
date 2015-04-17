@@ -21,3 +21,7 @@ I always want to relate training DNN with physics, I'll start another post on th
 (Update on 4.15.2015)
 <!--break-->
 I realized the reason that training take so much time is because of the stochastic gradient descent , since we have around 200000 images, and the batch size is only 32, it takes time to go through one epoch( go through all the images once), meanwhile for each epoch training has to improve this overfitting for small batches although loss can be kept within unit ball.
+
+<!--break-->
+(Update on 4.17.2015)
+Two things, I want to theoretically find the upper bound for iterations within the CNN model, at least for our super resolution model(this should be far more easy). Because .8 billion iterations for a domestic computer is a nightmare.  In this way,at least we have a expectation on what capacity of the GPU and CPU we will use and how long we would have a decent result, in other words, find a diminished marginal utility for our training. The Second, this super resolution CNN model might be more sophisticated and works better if we design the model first predict the image category within the GMM clusters and for each category we separately train a Super Resolution Model. 
