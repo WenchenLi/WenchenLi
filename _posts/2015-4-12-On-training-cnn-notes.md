@@ -4,7 +4,7 @@ category : machine learning
 title: Thoughts on training CNN in the case of Super Resolution
 ---
 
-Recently I have a project on learning Super Resolution filtering using Convolutional Neural Network(CNN). One thing surprises me is the fact that although numerical loss get stuck within a unit ball after 10000 iterations of batch size 717 of 20 by 20 images(output size), a fixed learning rate 0.0001 and momentum 0.9 still makes progress to learn the "super resolution filters". 
+Recently I have a project on learning Super Resolution filtering using Convolutional Neural Network(CNN). One thing surprises me is the fact that although numerical loss get stuck within a unit ball after 10000 iterations of batch size 128 of 20 by 20 images(output size), a fixed learning rate 0.0001 and momentum 0.9 still makes progress to learn the "super resolution filters". 
 
 <!--break-->
 
