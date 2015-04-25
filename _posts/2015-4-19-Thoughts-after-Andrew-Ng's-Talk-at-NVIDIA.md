@@ -19,4 +19,4 @@ I always believe the best way to learn is by doing it and think carefully what's
 <!--break-->
 ![magic screenshots]({{ site.url }}/assets/Screenshot 2015-04-19 11.31.55.png)
 ![magic screenshots]({{ site.url }}/assets/Screenshot 2015-04-19 11.54.47.png)
-The new promising deep speech structure: a BDRNN. Help neural network's each recognizing unit better capture what is before and after itself.
+The new promising deep speech structure: a BDRNN. Help neural network's each recognizing unit better capture what is before and after itself.BTW I should remind myself here BDRNN is the one I should learn during this summer.
