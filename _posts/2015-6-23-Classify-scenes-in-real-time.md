@@ -9,7 +9,7 @@ I've seen someone port caffe on android devices on Github using JNI, but it's ru
 
 I still remember the hardest time when me and Robert sitting together debugging the caffe code for this project, it was like not making progress at all.But finally we persisted and came through all the problems thanks to our great collaboration and communication as well as helps from Dr.Wagner and Dr.Kira. I feels I've learned a lot from this working experience: getting better understanding in coding in c/c++ and python, working collaboratively using Git and Github, setting up hardware within our project and of course how to use adobe premiere to edit videos...I feels like working in a group is pretty great, I can learn from different people, talk to them, asking questions when get confused.
 
-Below are some docs for this project:
+Below are simplified docs for this project(it's a private repo,can't share to much here):
 
 #Hardwares
 
