@@ -21,7 +21,7 @@ Below are some docs for this project:
 
 #Dependencies
 
-```
+```sh
 Flycapture2-SDK 
 Opencv-2.4.8
 boost-1.54.0.1ubuntu1
@@ -30,6 +30,7 @@ ffmpeg-2.62
 vlfeat-0.9.20
 cmake/eclipse with cdt
 ```
+
 #Usage
 
 Preprocess
