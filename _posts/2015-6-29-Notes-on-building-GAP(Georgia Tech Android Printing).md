@@ -14,6 +14,5 @@ of course is not the best way to do it.However, For now I should focus on how to
 printing app and make an user interface for the command input later.Also I should make and implicit intent for other apps to launch printing.
 Later if time allowed, I could do a auto connect to gatech network though their vpn for my user if they are not using gatech internet.
  \(gatech only allows sending print request from inland network\).
-My approach: starting from a open source built CUPS services [app])(https://github.com/pelya/android-print-plugin-cups)\(a little
-  bit out of data\). Since there is a server provided by this app through advanced setting. I could configure it with the gatech
+My approach: starting from a open source built CUPS services [app](https://github.com/pelya/android-print-plugin-cups). Since there is a server provided by this app through advanced setting. I could configure it with the gatech
   printer configuration.
