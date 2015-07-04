@@ -1,6 +1,7 @@
 ---
 layout: post
 category : competition
+comments: true
 title: kaggle otto competition summary
 ---
 It's been a while, I complete this competition with my friend and we rank top 25% for the first time we participate in kaggle machine learning competition. I have to say I learned and realized a lot through this competition. I learned a lot more tools to build machine learning system as well as which are best for what, say, scikit learn lib still using sequential algorithm with made it pretty slow to get the feedback although it is the most resourceful machine learning library in python to test for ideas, several other python libs like keras and lasagne is good for using gpu through theano to run neural networks.
@@ -35,7 +36,7 @@ X = Train and test sets
 -Model 3: Extra Trees Classifier(scikit). Dataset: Log(X+1) (but could be raw)
 -Model 4: KNeighborsClassifier(scikit). Dataset: Scale( Log(X+1) )
 -Model 5: libfm. Dataset: Sparse(X). Each feature value is a unique level.
--Model 6: H2O NN. Bag of 10 runs. Dataset: sqrt( X + 3/8) 
+-Model 6: H2O NN. Bag of 10 runs. Dataset: sqrt( X + 3/8)
 -Model 7: Multinomial Naive Bayes(scikit). Dataset: Log(X+1)
 -Model 8: Lasagne NN(CPU). Bag of 2 NN runs. First with Dataset Scale( Log(X+1) ) and second with Dataset Scale( X )
 -Model 9: Lasagne NN(CPU). Bag of 6 runs. Dataset: Scale( Log(X+1) )
@@ -43,7 +44,7 @@ X = Train and test sets
 -Model 11: Sofia(R). Dataset: one against all with learner_type="logreg-pegasos" and loop_type="balanced-stochastic". Dataset: Scale(X)
 -Model 12: Sofia(R). Trainned one against all with learner_type="logreg-pegasos" and loop_type="balanced-stochastic". Dataset: Scale(X, T-sne Dimension, some 3 level interactions between 13 most important features based in randomForest importance )
 -Model 13: Sofia(R). Trainned one against all with learner_type="logreg-pegasos" and loop_type="combined-roc". Dataset: Log(1+X, T-sne Dimension, some 3 level interactions between 13 most important features based in randomForest importance )
--Model 14: Xgboost(R). Trainned one against all. Dataset: (X, feature sum(zeros) by row ). Replaced zeros with NA. 
+-Model 14: Xgboost(R). Trainned one against all. Dataset: (X, feature sum(zeros) by row ). Replaced zeros with NA.
 -Model 15: Xgboost(R). Trainned Multiclass Soft-Prob. Dataset: (X, 7 Kmeans features with different number of clusters, rowSums(X==0), rowSums(Scale(X)>0.5), rowSums(Scale(X)< -0.5) )
 -Model 16: Xgboost(R). Trainned Multiclass Soft-Prob. Dataset: (X, T-sne features, Some Kmeans clusters of X)
 -Model 17: Xgboost(R): Trainned Multiclass Soft-Prob. Dataset: (X, T-sne features, Some Kmeans clusters of log(1+X) )
