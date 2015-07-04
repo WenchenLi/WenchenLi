@@ -1,6 +1,7 @@
 ---
 layout: post
 category : android
+comments: True
 title: GAP notes
 ---
 This post keep track of what I realized and learned through building GAP.
