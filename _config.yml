@@ -36,15 +36,15 @@ comments :
   provider : disqus
   disqus :
     short_name : wenchenli
-  # livefyre :
-  #   site_id : 123
-  # intensedebate :
-  #   account : 123abc
-  # facebook :
-  #   appid : 123
-  #   num_posts: 5
-  #   width: 580
-  #   colorscheme: light
+  livefyre :
+    site_id : 123
+  intensedebate :
+    account : 123abc
+  facebook :
+    appid : 123
+    num_posts: 5
+    width: 580
+    colorscheme: light
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 analytics :
