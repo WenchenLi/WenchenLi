@@ -1,13 +1,14 @@
 ---
 layout: post
 category : experience
+comments: true
 title: Work with people 		
 ---
-I experience a lot of collaborations during this semester, projects in the class as well as works at GTRI. Most of them works great, but one of them makes me really uncomfortable.I'm not here to complain but to summarize what I learned from this experience and how to avoid this in the future. 
+I experience a lot of collaborations during this semester, projects in the class as well as works at GTRI. Most of them works great, but one of them makes me really uncomfortable.I'm not here to complain but to summarize what I learned from this experience and how to avoid this in the future.
 
 <!--break-->
 
-Always respect my teammates, people in the team may have different understanding on a specific field, whenever they have different opinion and even negate my thoughts, I should discuss with them until we are more like on the same page before this discussion if we are in a small team. 
+Always respect my teammates, people in the team may have different understanding on a specific field, whenever they have different opinion and even negate my thoughts, I should discuss with them until we are more like on the same page before this discussion if we are in a small team.
 
 <!--break-->
 
@@ -23,7 +24,7 @@ Manage a team is not easy. It is an art involve everything.You expertise in the 
 
 <!--break-->
 
-When you feels not comfortable working with someone in the team, talk to him/her first to better understand what leads to the current situation. If it is really hard to solve, avoid further cooperation. 
+When you feels not comfortable working with someone in the team, talk to him/her first to better understand what leads to the current situation. If it is really hard to solve, avoid further cooperation.
 
 <!--break-->
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 category : Startup
+comments: true
 title: Kai-Fu Lee's advice on starup for the youngster
 ---
 

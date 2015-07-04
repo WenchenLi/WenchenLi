@@ -1,6 +1,7 @@
 ---
 layout: post
 category : Deep Learning
+comments: true
 title: Thoughts after Andrew's talk at Nvidia
 ---
 Today I watch the [talk](http://www.ustream.tv/recorded/60113824) Andrew Ng gave at GPU Technology Conference.

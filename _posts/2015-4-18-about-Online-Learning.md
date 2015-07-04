@@ -1,5 +1,6 @@
 ---
 layout: post
 category : online learning
-title: study online learning 
+comments: true
+title: study online learning
 ---

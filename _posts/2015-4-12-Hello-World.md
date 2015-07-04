@@ -1,6 +1,7 @@
 ---
 layout: post
 category : start
+comments: true
 title: Hello World!
 ---
 

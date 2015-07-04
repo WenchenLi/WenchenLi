@@ -1,6 +1,7 @@
 ---
 layout: post
 category : Collaborative Filtering
+comments: true
 title: Thoughts on Collaborative Filtering
 ---
 Recently I implemented a recommendation system based on the Collaborative Filtering, my references are [Andrew's introductory on CF](https://www.coursera.org/learn/machine-learning/) and
