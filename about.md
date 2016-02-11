@@ -13,5 +13,10 @@ I love to code agents that can help with people's everyday life. Optimizing not 
 I believe Machine Learning & Artificial Intelligence is the direction to help.
 
 ### Contact me
+[![IMAGE ALT TEXT HERE](/images/profile-photo-linkedin-96x96.png)](https://www.linkedin.com/in/wenchenli)
+[![IMAGE ALT TEXT HERE](/images/facebook-icone-6984-96.png)](https://www.facebook.com/Aaron.wenchen.li)
+[![IMAGE ALT TEXT HERE](/images/twitter-4-icon.png)](https://twitter.com/WenchenLi)
+[![IMAGE ALT TEXT HERE](/images/Weibo-512.png)](http://weibo.com/wenchenlee)
+[![IMAGE ALT TEXT HERE](/images/email-icon.png)](mailto:wenchenli@gatech.edu)
 
-[wenchenli@gatech.edu](mailto:wenchenli@gatech.edu)
+
