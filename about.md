@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm currently a CS master student @ [Gatech](http://www.cc.gatech.edu) focusing on Machine Learning.Previously I studied actuarial science @ [Columbia University](http://www.columbia.edu) and computational mathematics @ [Mathematics School & Institute of Jilin University](http://math.jlu.edu.cn/).
+Welcome to my blog!
+
+This is Wenchen Li. I'm currently a CS master student @ [Gatech](http://www.cc.gatech.edu) focusing on Machine Learning.Previously I studied actuarial science @ [Columbia University](http://www.columbia.edu) and computational mathematics @ [Mathematics School & Institute of Jilin University](http://math.jlu.edu.cn/).
 
 For now I'm working with [Dr.Alan Wagner](http://www.cc.gatech.edu/~alanwags/) and [Dr.Zsolt Kira](http://www.zsoltkira.com/) on implementing Deep segment project to perform real time scenes recognition and navigation for the blind and robot. Some initial result can be found [here](https://smartech.gatech.edu/bitstream/handle/1853/52410/Doshi_gtTechReport.pdf?sequence=1), I'll also be responsible in implementing on the Google Glass side of this project.
 
@@ -18,5 +20,3 @@ I believe Machine Learning & Artificial Intelligence is the direction to help.
 [![IMAGE ALT TEXT HERE](/images/twitter-4-icon.png)](https://twitter.com/WenchenLi)
 [![IMAGE ALT TEXT HERE](/images/Weibo-512.png)](http://weibo.com/wenchenlee)
 [![IMAGE ALT TEXT HERE](/images/email-icon.png)](mailto:wenchenli@gatech.edu)
-
-
