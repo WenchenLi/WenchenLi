@@ -68,8 +68,8 @@ baseurl: ""
 #
 
 markdown: redcarpet
-highlighter: pygments
-permalink: /:title/
+# highlighter: pygments
+# permalink: /:title/
 
 # The release of Jekyll Now that you're using
 version: v1.1.0
@@ -79,12 +79,21 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+# gems:
+#   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+# exclude:
+#     - Gemfile
+#     - Gemfile.lock
+#     - LICENSE
+#     - README.md
+
+permalink: /:year/:month/:title
+paginate: 3
+
+highlighter: rouge
+markdown: kramdown
+gems: ['jekyll-paginate']
+
+exclude: ['README.md', 'LICENSE']
