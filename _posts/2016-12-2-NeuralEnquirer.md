@@ -1,3 +1,10 @@
+---
+layout: post
+category : NLP,SQL
+comments: true
+title: Neural Enquirer: Learning to Query Tables with Natural Language
+---
+
 [Neural Enquirer: Learning to Query Tables with Natural Language](https://arxiv.org/pdf/1512.00965v2.pdf)
 
 ## Goal

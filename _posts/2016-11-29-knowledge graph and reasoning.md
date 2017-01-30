@@ -1,3 +1,11 @@
+---
+layout: post
+category : knowledge representation and reasoning
+comments: true
+title: Survey on knowledge representation and reasoning based on statistical machine learning
+---
+
+
 # Survey on knowledge representation and reasoning based on statistical machine learning
 
 对于知识图谱，大家的处理切入点有所差异， 多数都是基于应用的深度学习训练。见以下Tasks。
