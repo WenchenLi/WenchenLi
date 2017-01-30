@@ -6,17 +6,17 @@ A neural network aka Neural Enquirer(NE) to execute a natural language query on 
 ## Model
 vs End-to-End semantic parser
 NE is fully differentiable. 
-![model](../img/NE_model.png)
+![model]({{ site.url }}/assets/img/NE_model.png)
 
 ### Query Encoder
 bi-direction RNN
 
 ### Table Encoder
-![table](../img/NE_tabel_embedding.png)
+![table]({{ site.url }}/assets/img/NE_tabel_embedding.png)
 embedding of element at m,n of the table is a one layer non-linearity for a matrix transformation given the contatination of the embedding element at corresponding index with the corresponding column field name embedding.
 
 ### Executor
-![](../img/NE_executor.png)
+![]({{ site.url }}/assets/img/NE_executor.png)
 
 each executor is responsible for one type of operation(select, where, max etc.) 
 
@@ -27,10 +27,10 @@ Memory layer is used to store the intermediate result of the executers with each
 
 #### Reader
 attention agnostic to each value in the row 
-![reader](../img/NE_reader.png)
+![reader]({{ site.url }}/assets/img/NE_reader.png)
 
 #### Annotator
-![annotator](../img/NE_annotator.png)
+![annotator]({{ site.url }}/assets/img/NE_annotator.png)
 
 
 ## Train
@@ -42,7 +42,7 @@ this paper is more like working towards using the table structure(compositional 
 ## Experiments
 Dataset: huawei's own synthetic dataset.(not yet public available)
 comparision against SEMPRE:
-![annotator](../img/NE_experiment.png)
+![annotator]({{ site.url }}/assets/img/NE_experiment.png)
 
 ##My questions
 how to optimize the speed if each query need to search the whole table with distributed representation?(aka scalability)
