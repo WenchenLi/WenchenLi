@@ -7,6 +7,7 @@ name:Wenchen Li
 
 # Short bio or description (displayed in the header)
 description: YA AI practitioner
+github: WenchenLi
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: {{ site.url }}/assets/wordcloud.jpeg
@@ -45,6 +46,9 @@ comments :
     num_posts: 5
     width: 580
     colorscheme: light
+
+# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+disqus: 'wenchenli'
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 analytics :
