@@ -1,8 +1,8 @@
 ---
 layout: post
-category : Query Table
+category : Query
 comments: true
-title: Neural Enquirer: Learning to Query Tables with Natural Language
+title: Learning to Query Tables with Natural Language
 ---
 
 [Neural Enquirer: Learning to Query Tables with Natural Language](https://arxiv.org/pdf/1512.00965v2.pdf)
