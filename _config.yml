@@ -1,97 +1,136 @@
-#
-# This file contains configuration flags to customize your site
-#
+# #
+# # This file contains configuration flags to customize your site
+# #
 
-# Name of your site (displayed in the header)
-name:Wenchen Li
+# # Name of your site (displayed in the header)
+# name:Wenchen Li
 
-# Short bio or description (displayed in the header)
-description: YA AI practitioner
-github: WenchenLi
+# # Short bio or description (displayed in the header)
+# description: YA AI practitioner
+# github: WenchenLi
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.url }}/assets/wordcloud.jpeg
+# # URL of your avatar or profile pic (you could use your GitHub profile pic)
+# avatar: {{ site.url }}/assets/wordcloud.jpeg
 
-#
-# Flags below are optional
-#
+# #
+# # Flags below are optional
+# #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:largemaths@gmail.com
-  facebook:Aaron.wenchen.li
-  flickr:
-  github: WenchenLi
-  instagram:
-  linkedin:in/wenchenli
-  pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+# # Includes an icon in the footer for each username you enter
+# footer-links:
+#   dribbble:
+#   email:largemaths@gmail.com
+#   facebook:Aaron.wenchen.li
+#   flickr:
+#   github: WenchenLi
+#   instagram:
+#   linkedin:in/wenchenli
+#   pinterest:
+#   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+#   twitter:
+#   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+#   youtube: # channel/<your_long_string> or user/<user-name>
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-comments :
-  provider : disqus
-  disqus :
-    short_name : wenchenli
-  livefyre :
-    site_id : 123
-  intensedebate :
-    account : 123abc
-  facebook :
-    appid : 123
-    num_posts: 5
-    width: 580
-    colorscheme: light
+# # Enter your Disqus shortname (not your username) to enable commenting on posts
+# # You can find your shortname on the Settings page of your Disqus account
+# comments :
+#   provider : disqus
+#   disqus :
+#     short_name : wenchenli
+#   livefyre :
+#     site_id : 123
+#   intensedebate :
+#     account : 123abc
+#   facebook :
+#     appid : 123
+#     num_posts: 5
+#     width: 580
+#     colorscheme: light
+
+# # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
+# disqus: 'wenchenli'
+
+# # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# analytics :
+#   provider : google
+#   google :
+#       tracking_id : 'UA-61762966-1'
+#   getclicky :
+
+# # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# # Used for Sitemap.xml and your RSS feed
+# url:wenchenli.github.io
+
+# # If you're hosting your site at a Project repository on GitHub pages
+# # (http://yourusername.github.io/repository-name)
+# # and NOT your User repository (http://yourusername.github.io)
+# # then add in the baseurl here, like this: "/repository-name"
+# baseurl: ""
+
+# #
+# # !! You don't need to change any of the configuration flags below !!
+# #
+
+# markdown: redcarpet
+# # highlighter: pygments
+# # permalink: /:title/
+
+# # The release of Jekyll Now that you're using
+# version: v1.1.0
+
+# # Set the Sass partials directory, as we're using @imports
+# sass:
+#   style: :expanded # You might prefer to minify using :compressed
+
+# # Use the following plug-ins
+# # gems:
+# #   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# # Exclude these files from your production _site
+# # exclude:
+# #     - Gemfile
+# #     - Gemfile.lock
+# #     - LICENSE
+# #     - README.md
+
+# permalink: /:year/:month/:title
+# paginate: 3
+
+# highlighter: rouge
+# markdown: kramdown
+# gems: ['jekyll-paginate']
+
+# exclude: ['README.md', 'LICENSE']
+# # Jekyll configuration
+
+name: Wenchen's bloh
+description: Towards General Artificial Intelligence
+
+# url is currently only used only for the RSS feed in feed.xml
+url: 'wenchenli.github.io'
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: /jekyll-clean
+
+# This can be '' to hide the Github nav button
+github: 'WenchenLi'
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: 'UA-61762966-1'
+
+# The 'comments' setting enables comments. You'll need to select either
+# disqus or isso below to choose a comment system. Individual posts can
+# override 'comments' to disable on a post-by-post basis.
+comments: true
+
+# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
+isso: ''
 
 # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
 disqus: 'wenchenli'
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-61762966-1'
-  getclicky :
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:wenchenli.github.io
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-markdown: redcarpet
-# highlighter: pygments
-# permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.1.0
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-# gems:
-#   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-
-# Exclude these files from your production _site
-# exclude:
-#     - Gemfile
-#     - Gemfile.lock
-#     - LICENSE
-#     - README.md
 
 permalink: /:year/:month/:title
 paginate: 3
@@ -101,3 +140,4 @@ markdown: kramdown
 gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE']
+
