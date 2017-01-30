@@ -1,6 +1,6 @@
 ---
 layout: post
-category : NLP,SQL
+category : Query Table
 comments: true
 title: Neural Enquirer: Learning to Query Tables with Natural Language
 ---
