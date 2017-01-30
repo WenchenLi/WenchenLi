@@ -40,9 +40,11 @@ weakly supervised means for each pair of entities detected in the text, all rela
 ### CMU
 
 #### [Read the Web](http://rtw.ml.cmu.edu/rtw/publications)
+
 To build a never-ending machine learning system that acquires the ability to **extract structured information from unstructured web pages**. If successful, this will result in a knowledge base (i.e., a relational database) of structured information that mirrors the content of the Web. We call this system NELL (Never-Ending Language Learner).
 
 #### Eric P. Xing group(http://www.cs.cmu.edu/~epxing/publications-2016.html)
+
 1. [Harnessing Deep Neural Networks with Logic Rules](http://www.cs.cmu.edu/~epxing/papers/2016/Hu_etal_ACL16.pdf) (distillation method that transfers the structured
 information of logic rules into the
 weights of neural networks)
@@ -51,6 +53,7 @@ weights of neural networks)
 ### Stanford
 
 #### NLP group
+
 1. [Reasoning With Neural Tensor Networks
 for Knowledge Base Completion](http://nlp.stanford.edu/pubs/SocherChenManningNg_NIPS2013.pdf)
 2.  [Learning new facts from knowledge bases
@@ -66,6 +69,7 @@ we are building several applications, **including systems to read large amounts 
 ### GOOGLE:
 
 #### [Google's Knowledge Vault](https://www.cs.ubc.ca/~murphyk/Papers/kv-kdd14.pdf)
+
 constructing knowledge bases based on the web. 
 
 
@@ -74,6 +78,7 @@ constructing knowledge bases based on the web.
 
 
 ## Tasks
+
 conversation/dialog/chat:
 [Knowledge Graphs and Linked Big Data Resources for Conversational Understanding](https://www.microsoft.com/en-us/research/project/knowledge-graphs-and-linked-big-data-resources-for-conversational-understanding/)
 
@@ -85,11 +90,13 @@ semantics:
 https://www.semanticscholar.org/paper/Deep-learning-of-knowledge-graph-embeddings-for-Heck-Huang/d35f27d8b6b5e00fd31d5f85658c9d435c1cb188)
 
 ## Datasets
+
 1. [Freebase](https://developers.google.com/freebase/) triplet relationships
 2. [WordNet](https://wordnet.princeton.edu/)
 3. [babi](https://research.facebook.com/research/babi/) towards the goal of automatic text understanding and reasoning
 
 ## MISC
+
 1. [nips-2015-reasoning-workshop](http://www.thespermwhale.com/jaseweston/ram/) **important**
 
 2. [Memory Networks for Language Understanding, ICML Tutorial 2016](http://www.thespermwhale.com/jaseweston/icml2016/)
