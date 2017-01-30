@@ -103,7 +103,7 @@
 # exclude: ['README.md', 'LICENSE']
 # # Jekyll configuration
 
-name: Wenchen's bloh
+name: Wenchen's blog
 description: Towards General Artificial Intelligence
 
 # url is currently only used only for the RSS feed in feed.xml
@@ -113,7 +113,7 @@ url: 'wenchenli.github.io'
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: /jekyll-clean
+baseurl: ""
 
 # This can be '' to hide the Github nav button
 github: 'WenchenLi'
