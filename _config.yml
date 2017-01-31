@@ -137,7 +137,7 @@ paginate: 3
 
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
+gems: ['jekyll-paginate','jekyll-responsive-image']
 
 exclude: ['README.md', 'LICENSE']
 
