@@ -3,6 +3,11 @@
 </div>
 
 <div class="sidebar well">
+notice: I'm currently moved to 
+<a href="https://medium.com/@wenchen.li">medium</a>
+</div>
+
+<div class="sidebar well">
     <h1>Recent Posts</h1>
     <ul>
         {% for post in site.posts limit:5 %}
@@ -11,14 +16,14 @@
     </ul>
 </div>
 
-<div class="sidebar well">
+<!-- <div class="sidebar well">
     <h1>Category</h1>
     <ul>
         {% for category in site.category %}
           <li><a href="{{ site.baseurl}}{{ post.url }}">{{ category }}</a></li>
         {% endfor %}
     </ul>
-</div>
+</div> -->
 
 <div class="sidebar well">
 {% include links-list.html %}
