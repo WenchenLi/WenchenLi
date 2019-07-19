@@ -15,7 +15,7 @@ A neural network aka Neural Enquirer(NE) to execute a natural language query on 
 
 vs End-to-End semantic parser
 NE is fully differentiable. 
-![model]({{ site.url }}/assets/img/NE_model.png)
+![model]({{ site.url }}/assets/img/NE_model.png){:class="img-responsive"}
 
 ### Query Encoder
 
@@ -23,12 +23,12 @@ bi-direction RNN
 
 ### Table Encoder
 
-![table]({{ site.url }}/assets/img/NE_tabel_embedding.png)
+![table]({{ site.url }}/assets/img/NE_tabel_embedding.png){:class="img-responsive"}
 embedding of element at m,n of the table is a one layer non-linearity for a matrix transformation given the contatination of the embedding element at corresponding index with the corresponding column field name embedding.
 
 ### Executor
 
-![]({{ site.url }}/assets/img/NE_executor.png)
+![]({{ site.url }}/assets/img/NE_executor.png){:class="img-responsive"}
 
 each executor is responsible for one type of operation(select, where, max etc.) 
 
@@ -41,11 +41,11 @@ Memory layer is used to store the intermediate result of the executers with each
 #### Reader
 
 attention agnostic to each value in the row 
-![reader]({{ site.url }}/assets/img/NE_reader.png)
+![reader]({{ site.url }}/assets/img/NE_reader.png){:class="img-responsive"}
 
 #### Annotator
 
-![annotator]({{ site.url }}/assets/img/NE_annotator.png)
+![annotator]({{ site.url }}/assets/img/NE_annotator.png){:class="img-responsive"}
 
 
 ## Train
@@ -60,7 +60,7 @@ this paper is more like working towards using the table structure(compositional 
 
 Dataset: huawei's own synthetic dataset.(not yet public available)
 comparision against SEMPRE:
-![annotator]({{ site.url }}/assets/img/NE_experiment.png)
+![annotator]({{ site.url }}/assets/img/NE_experiment.png){:class="img-responsive"}
 
 ##My questions
 
